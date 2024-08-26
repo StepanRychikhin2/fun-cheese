@@ -1,0 +1,32 @@
+.mainPage{
+    width: 1920px;
+    min-height: 100vh;
+    background: linear-gradient(305deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+
+
+}
+
+.PhotoShefHat {
+    width: 32px;
+height: 32px;
+flex-shrink: 0;
+}
+
+.boxNameHed{
+    gap:4px;
+    display: flex;
+
+}
+
+.GlawBox {
+    display: flex;
+    
+}
+.ListCont {
+    display: flex;
+    
+    
+}
+.componentList {
+    display: flex;
+}

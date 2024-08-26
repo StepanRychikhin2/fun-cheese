@@ -1,14 +1,15 @@
-/* body {
-  
-  font-family: "Yeseva One";
-} */
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+ body {
+  font-family: "Poppins";
+}
 * {
-
-
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
+  box-sizing: border-box;
 }
 ul {
   list-style: none;
@@ -40,4 +41,13 @@ input {
 textarea {
   outline: none;
   resize: none;
-} 
+}
+button{
+  cursor: pointer;
+}
+`;
+
+export default GlobalStyle;
+
+
+

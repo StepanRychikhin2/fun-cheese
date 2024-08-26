@@ -1,9 +1,8 @@
-import LoadPage from "./components/LoadPage/MainPaheLoad"
-
+import { Main } from "./components/pages/main/main";
 function App() {
   return (
     <>
-    <LoadPage></LoadPage>
+<Main></Main>
 
     </>
   );
