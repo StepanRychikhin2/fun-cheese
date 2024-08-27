@@ -1,32 +1,54 @@
-.mainPage{
-    width: 1920px;
-    min-height: 100vh;
-    background: linear-gradient(305deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
-
-
+.mainPage {
+	width: 1920px;
+	min-height: 100vh;
+	background: linear-gradient(305deg, #f4ece1 57.1%, #fcfbf7 145.5%);
 }
-
+/*  Load-page-css */
 .PhotoShefHat {
-    width: 32px;
-height: 32px;
-flex-shrink: 0;
+	width: 32px;
+	height: 32px;
+	flex-shrink: 0;
+	margin-right: 4px;
 }
 
-.boxNameHed{
-    gap:4px;
-    display: flex;
-
+.boxNameHed {
+	gap: 4px;
+	display: flex;
 }
 
 .GlawBox {
-    display: flex;
-    
+	display: flex;
 }
 .ListCont {
-    display: flex;
-    
-    
+	margin-top: 48px;
+	margin-left: 282px;
+	display: flex;
+	align-items: center;
+	gap: 200px;
 }
 .componentList {
-    display: flex;
+	display: flex;
 }
+.textInItem {
+	color: #000;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 94.8%;
+}
+.BigTextInItem {
+	color: #000;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 139.8%;
+}
+
+
+
+/* info-Panel-css */
+
+
+
+
+
+

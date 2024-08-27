@@ -8,13 +8,13 @@ class Header extends Component {
 				<ul className={sty.ListCont}>
 					<li className={sty.componentList}>
 						<img className={sty.PhotoShefHat} src={HhefHat} />
-						<h1>FUN CHEESE</h1>
+						<h1 className={sty.BigTextInItem}>FUN CHEESE</h1>
 					</li>
 					<li className={sty.componentList}>
-						<p>Home</p>
+						<p className={sty.textInItem}>Home</p>
 					</li>
 					<li className={sty.componentList}>
-						<p>Contact</p>
+						<p className={sty.textInItem}>Contact</p>
 					</li>
 				</ul>
 			</div>
@@ -22,4 +22,4 @@ class Header extends Component {
 	}
 }
 
-export default Header
+export default Header;

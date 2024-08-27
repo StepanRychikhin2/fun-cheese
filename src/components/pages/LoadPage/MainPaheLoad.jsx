@@ -1,11 +1,11 @@
 import Header from "./Header";
-import InfoPanel from "./InfoPanel";
+import InfoPanelLoadPage from "./InfoPanel";
 import sty from "./loadPagecss.module.css"
 function MainLoadPage() {
     return (
       <div className={sty.mainPage}>
 <Header></Header>
-<InfoPanel></InfoPanel>
+<InfoPanelLoadPage></InfoPanelLoadPage>
       </div>
       
       

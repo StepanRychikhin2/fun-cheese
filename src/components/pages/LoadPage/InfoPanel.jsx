@@ -1,9 +1,13 @@
 import sty from "./loadPagecss.module.css"
-function InfoPanel() {
-    return (
-        <h2>InfoPNEL</h2>
-    )
+import { React, Component } from 'react'
+class InfoPanelLoadPage extends Component {
+	render() {
+		return (
+			<div >
+				<p>awdawd</p>
+			</div>
+		)
+	}
 }
 
-
-export default InfoPanel;
+export default InfoPanelLoadPage;
