@@ -46,9 +46,74 @@
 
 
 /* info-Panel-css */
+.boxTextFood{
+	display: flex;
+	align-items: center;
+	gap: 17px;
+}
+.TitleFod {
+	color: #FF7E00;
+	font-size: 125px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.8%; 
+	letter-spacing: -4.375px;
+}
+
+.TxtFod{
+	width: 221px;
+	color: #2F2F2F;
+	font-size: 52px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94.8%
+}
+
+.boxInfoPanel{
+	display: flex;
+	margin-top: 67px;
+	margin-left: 282px;
+}
 
 
+.imgLoadINfo{
+	width: 750px;
+height: 712px;
+flex-shrink: 0;
+}
+.TxtInfo{
+	width: 568px;
+color: #909090;
+
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 138.8%
+}
+.btnOrder {
+	width: 188px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 84px;
+background: #2F2F2F;
+color: #F4ECE1;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 94.8%;
+box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.20);
+}
 
 
+.btnVideo{
+	background-color: #d5d3d3;
 
+}
 
+.imgYT{
+	width: 57px;
+height: 57px;
+flex-shrink: 0;
+}
